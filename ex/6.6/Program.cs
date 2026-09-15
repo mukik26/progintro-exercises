@@ -1,5 +1,8 @@
-﻿for ( double tempc = -5 ; tempc <= 40 ; tempc + 0.5 ) {
-    //Console.WriteLine("C: " + tempc + "F: " + tempf);
-    Console.WriteLine(tempc);
+﻿double tempc = -5;
+double tempf;
+
+while (tempc <= 40) {
+    tempf = 32 + (9.0 / 5.0 * tempc);
+    Console.WriteLine("C: " + tempc + "   F: " + tempf);
+    tempc += 0.5;
 }
-// maybe a while loop....
