@@ -21,4 +21,3 @@ while (true) {
         Console.WriteLine("Exception caught! System.FormatException");
     }
 }
-
